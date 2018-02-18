@@ -14,6 +14,7 @@
 		25678C4A2039B4C7005BB45B /* UnitTestAndUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25678C492039B4C7005BB45B /* UnitTestAndUITestTests.swift */; };
 		25678C552039B4C7005BB45B /* UnitTestAndUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25678C542039B4C7005BB45B /* UnitTestAndUITestUITests.swift */; };
 		25678C6C2039B61B005BB45B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25678C692039B61A005BB45B /* HomeVC.swift */; };
+		25678C6E2039BF33005BB45B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25678C6D2039BF33005BB45B /* Movie.swift */; };
 		38D689501DCA9D06D2925F66 /* Pods_UnitTestAndUITestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7208A38D52990B36C80AE6F6 /* Pods_UnitTestAndUITestTests.framework */; };
 		8983B04F8DD3C1A10F0B8511 /* Pods_UnitTestAndUITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3789AADDE90867CAE85F0AB /* Pods_UnitTestAndUITest.framework */; };
 		F7AFE0335F90078BB2D352AA /* Pods_UnitTestAndUITestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04AFC49CEF796D46CDBB8A /* Pods_UnitTestAndUITestUITests.framework */; };
@@ -51,6 +52,7 @@
 		25678C542039B4C7005BB45B /* UnitTestAndUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestAndUITestUITests.swift; sourceTree = "<group>"; };
 		25678C562039B4C7005BB45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25678C692039B61A005BB45B /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		25678C6D2039BF33005BB45B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		2D7949957C3DEDD6295855ED /* Pods-UnitTestAndUITestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestAndUITestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTestAndUITestTests/Pods-UnitTestAndUITestTests.release.xcconfig"; sourceTree = "<group>"; };
 		3970A12D1FA90F14A3111844 /* Pods-UnitTestAndUITestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestAndUITestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTestAndUITestTests/Pods-UnitTestAndUITestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		607755939BBE4BA3A8EC61AE /* Pods-UnitTestAndUITestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestAndUITestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTestAndUITestUITests/Pods-UnitTestAndUITestUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		25678C6B2039B61B005BB45B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				25678C6D2039BF33005BB45B /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 			files = (
 				25678C6C2039B61B005BB45B /* HomeVC.swift in Sources */,
 				25678C352039B4C7005BB45B /* AppDelegate.swift in Sources */,
+				25678C6E2039BF33005BB45B /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,6 +653,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ./UnitTestAndUITest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-shuvro.UnitTestAndUITest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -664,6 +669,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ./UnitTestAndUITest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-shuvro.UnitTestAndUITest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
