@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum Genre {
+enum Genre : String {
     case animation
     case action
     case none
@@ -20,7 +20,7 @@ struct Movie {
 }
 
 class MovieHelper {
-    func getMovies() -> [Movie] {
+    static func getMovies() -> [Movie] {
         return [
             Movie(title: "The Emoji Movie", genre: .animation),
             Movie(title: "Logan", genre: .action),
